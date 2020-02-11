@@ -6,7 +6,6 @@
   tasks:
    - name: NoShut Interface
      ios_config:
-       authorize: yes
        lines:
          - config t
          - interface f0/1

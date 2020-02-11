@@ -5,8 +5,8 @@
 
   tasks:
    - name: NoShut Interface
-     ios_config:
-       lines:
+     ios_commands:
+       commands:
          - config t
          - interface f0/1
          - no shut

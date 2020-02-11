@@ -1,0 +1,15 @@
+- hosts: Routers
+
+  gather_facts: false
+  connection: local
+
+  tasks:
+   - name: NoShut Interface
+     ios_config:
+       authorize: yes
+       lines:
+         - config t
+           interface f0/1
+           no shut
+
+  

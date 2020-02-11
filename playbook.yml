@@ -9,7 +9,7 @@
        authorize: yes
        lines:
          - config t
-           interface f0/1
-           no shut
+         - interface f0/1
+         - no shut
 
   
